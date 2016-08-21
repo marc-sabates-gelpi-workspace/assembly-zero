@@ -11,7 +11,11 @@ Commands
 ```
 readelf -h zero
 readelf -a zero
+readelf -S zero
 hexdump zero
+hexdump -C -s 64 zero
+objdump -h zero
+ldd zero
 ```
 
 Links:
